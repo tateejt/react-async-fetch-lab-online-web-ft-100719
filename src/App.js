@@ -12,6 +12,6 @@ class App extends Component {
     <div>
       {this.state.peopleInSpace.map((person, id) => <h1 key={id}>{person.name}</h1>)}
     </div>
-      )
+    )
   }
 }
