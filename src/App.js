@@ -8,6 +8,8 @@ class App extends Component {
   }
   
   render(){
-    return 
+    return <div>
+        {this.state.peopleInSpace.map((person, id) => <h1 key={id}>{person.name}</h1>)}
+      </div>
   }
 }
